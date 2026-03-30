@@ -5,16 +5,16 @@ workflows:
     instance_type: mac_mini_m2
 
     integrations:
-      app_store_connect: EDEN RUSSEL
+      app_store_connect: PoolChemistry
 
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: poolchemistry.app
+        bundle_identifier: poolchemistry.matthijsriemsdijk
       vars:
         XCODE_PROJECT: "PoolChemistry.xcodeproj"
         XCODE_SCHEME: "PoolChemistry"
-        APP_STORE_APP_ID: "YOUR_APP_STORE_ID"
+        APP_STORE_APP_ID: "6761384053"
       xcode: 16.1
 
     scripts:
