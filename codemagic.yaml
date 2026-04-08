@@ -33,6 +33,17 @@ workflows:
           agvtool new-version -all $BUILD_NUMBER
           echo "Build number set to: $BUILD_NUMBER"
 
+      - name: Fetch signing certificates and profiles
+        script: |
+          app-store-connect fetch-signing-files poolchemistry.matthijsriemsdijk \
+            --type IOS_APP_STORE \
+            --create
+
+          keychain initialize
+          keychain add-certificates
+          xcode-project use-profiles
+        working_directory: $CM_BUILD_DIR
+
       - name: Set up code signing
         script: |
           xcode-project use-profiles
@@ -52,6 +63,21 @@ workflows:
             -archivePath build/App.xcarchive \
             -exportOptionsPlist ~/export_options.plist \
             -exportPath build/ios/ipa
+        working_directory: $CM_BUILD_DIR
+
+      - name: Install fastlane
+        script: |
+          gem install fastlane
+
+      - name: Install bundle dependencies
+        script: |
+          cd $CM_BUILD_DIR
+          bundle install
+
+      - name: Upload metadata and screenshots
+        script: |
+          cd $CM_BUILD_DIR
+          bundle exec fastlane upload_metadata
         working_directory: $CM_BUILD_DIR
 
     artifacts:

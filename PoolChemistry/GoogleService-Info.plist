@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyAEWcrFee47btYo8ioMmwfd3eVZWdwYzOM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1071449763001</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>poolchemistry.matthijsriemsdijk</string>
+	<key>PROJECT_ID</key>
+	<string>pool-chemistryio</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pool-chemistryio.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1071449763001:ios:0376cfa5e839bc86dfff68</string>
+</dict>
+</plist>
