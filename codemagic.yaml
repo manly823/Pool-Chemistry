@@ -15,7 +15,7 @@ workflows:
         XCODE_PROJECT: "PoolChemistry.xcodeproj"
         XCODE_SCHEME: "PoolChemistry"
         APP_STORE_APP_ID: "6761384053"
-      xcode: 16.1
+      xcode: latest
 
     scripts:
       - name: Install CocoaPods dependencies
