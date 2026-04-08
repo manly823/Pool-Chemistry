@@ -65,21 +65,6 @@ workflows:
             -exportPath build/ios/ipa
         working_directory: $CM_BUILD_DIR
 
-      - name: Install fastlane
-        script: |
-          gem install fastlane
-
-      - name: Install bundle dependencies
-        script: |
-          cd $CM_BUILD_DIR
-          bundle install
-
-      - name: Upload metadata and screenshots
-        script: |
-          cd $CM_BUILD_DIR
-          bundle exec fastlane upload_metadata
-        working_directory: $CM_BUILD_DIR
-
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
