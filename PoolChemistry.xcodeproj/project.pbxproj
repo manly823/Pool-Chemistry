@@ -12,6 +12,8 @@
 		8EE2843B2F86F2700023B517 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 8EE2843A2F86F2700023B517 /* FirebaseMessaging */; };
 		8EE2843E2F86F27D0023B517 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 8EE2843D2F86F27D0023B517 /* AppsFlyerLib-Static */; };
 		8EE284412F86F2870023B517 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 8EE284402F86F2870023B517 /* FirebaseMessaging */; };
+		8EE285282F87A2810023B517 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EE285272F87A2810023B517 /* GoogleService-Info.plist */; };
+		8EE285292F87A2810023B517 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EE285272F87A2810023B517 /* GoogleService-Info.plist */; };
 		A100000101 /* PoolChemistryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000001 /* PoolChemistryApp.swift */; };
 		A100000102 /* PoolModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000002 /* PoolModels.swift */; };
 		A100000103 /* PoolManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000003 /* PoolManager.swift */; };
@@ -64,6 +66,7 @@
 
 /* Begin PBXFileReference section */
 		8EE2842A2F86F22E0023B517 /* Notification.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Notification.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE285272F87A2810023B517 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A100000001 /* PoolChemistryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoolChemistryApp.swift; sourceTree = "<group>"; };
 		A100000002 /* PoolModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoolModels.swift; sourceTree = "<group>"; };
 		A100000003 /* PoolManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoolManager.swift; sourceTree = "<group>"; };
@@ -159,6 +162,7 @@
 		C100000001 = {
 			isa = PBXGroup;
 			children = (
+				8EE285272F87A2810023B517 /* GoogleService-Info.plist */,
 				C100000002 /* PoolChemistry */,
 				8EE2842B2F86F22E0023B517 /* Notification */,
 				8EE2843F2F86F2870023B517 /* Frameworks */,
@@ -327,6 +331,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EE285292F87A2810023B517 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A100000113 /* Assets.xcassets in Resources */,
+				8EE285282F87A2810023B517 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

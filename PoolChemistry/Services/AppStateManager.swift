@@ -100,6 +100,9 @@ class AppStateManager: ObservableObject {
 
         loadingProgress = "Loading user's data..."
 
+        // Delay before ATT dialog so UI has time to render
+        try? await Task.sleep(nanoseconds: 1_500_000_000)
+
         _ = await appsFlyerService.requestTrackingAuthorization()
 
         loadingProgress = "Loading user's data..."
