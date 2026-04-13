@@ -253,6 +253,82 @@ struct DosageResult: Identifiable {
     let instructions: String
 }
 
+// MARK: - Maintenance Log
+
+enum MaintenanceType: String, Codable, CaseIterable, Identifiable {
+    case filterClean = "Filter Clean"
+    case filterReplace = "Filter Replace"
+    case vacuuming = "Vacuuming"
+    case brushing = "Brushing"
+    case skimming = "Skimming"
+    case pumpCheck = "Pump Check"
+    case winterize = "Winterize"
+    case springOpen = "Spring Opening"
+    case coverClean = "Cover Clean"
+    case other = "Other"
+    var id: String { rawValue }
+    var icon: String {
+        switch self {
+        case .filterClean: return "arrow.triangle.2.circlepath"
+        case .filterReplace: return "arrow.3.trianglepath"
+        case .vacuuming: return "wind"
+        case .brushing: return "paintbrush.fill"
+        case .skimming: return "leaf.arrow.triangle.circlepath"
+        case .pumpCheck: return "gearshape.fill"
+        case .winterize: return "snowflake"
+        case .springOpen: return "sun.max.fill"
+        case .coverClean: return "rectangle.inset.filled"
+        case .other: return "wrench.fill"
+        }
+    }
+}
+
+struct MaintenanceEntry: Identifiable, Codable {
+    var id = UUID()
+    var date: Date = Date()
+    var type: MaintenanceType
+    var notes: String = ""
+    var durationMinutes: Int = 0
+}
+
+// MARK: - Seasonal Tips
+
+struct SeasonalTip: Identifiable {
+    let id: Int
+    let text: String
+    let icon: String
+    let season: String
+
+    static var current: SeasonalTip {
+        let month = Calendar.current.component(.month, from: Date())
+        let season: String
+        switch month {
+        case 3...5: season = "Spring"
+        case 6...8: season = "Summer"
+        case 9...11: season = "Fall"
+        default: season = "Winter"
+        }
+        let seasonal = all.filter { $0.season == season || $0.season == "All" }
+        let day = Calendar.current.ordinality(of: .day, in: .year, for: Date()) ?? 1
+        return seasonal[day % seasonal.count]
+    }
+
+    static let all: [SeasonalTip] = [
+        SeasonalTip(id: 0, text: "Test your water at least twice a week during swimming season for safe conditions.", icon: "drop.fill", season: "All"),
+        SeasonalTip(id: 1, text: "Run your pump 8-12 hours per day to ensure proper circulation and filtration.", icon: "arrow.triangle.2.circlepath", season: "All"),
+        SeasonalTip(id: 2, text: "Shock your pool weekly during heavy use periods to eliminate combined chlorine.", icon: "bolt.fill", season: "Summer"),
+        SeasonalTip(id: 3, text: "Skim debris daily in summer — organic matter consumes chlorine rapidly.", icon: "leaf.arrow.triangle.circlepath", season: "Summer"),
+        SeasonalTip(id: 4, text: "Keep CYA (stabilizer) levels 30-50 ppm to protect chlorine from UV degradation.", icon: "sun.max.fill", season: "Summer"),
+        SeasonalTip(id: 5, text: "Lower water level and add winterizing chemicals before covering for the season.", icon: "snowflake", season: "Fall"),
+        SeasonalTip(id: 6, text: "Clean and store pool accessories before temperatures drop below freezing.", icon: "archivebox.fill", season: "Fall"),
+        SeasonalTip(id: 7, text: "Check your pool cover monthly during winter for tears and standing water.", icon: "eye.fill", season: "Winter"),
+        SeasonalTip(id: 8, text: "Order replacement chemicals and parts in winter to be ready for spring opening.", icon: "shippingbox.fill", season: "Winter"),
+        SeasonalTip(id: 9, text: "Balance pH and alkalinity first when opening your pool — other chemicals follow.", icon: "water.waves", season: "Spring"),
+        SeasonalTip(id: 10, text: "Deep clean your filter at the start of the season for maximum flow rate.", icon: "arrow.3.trianglepath", season: "Spring"),
+        SeasonalTip(id: 11, text: "Brush walls and floor weekly to prevent algae buildup, especially in shady areas.", icon: "paintbrush.fill", season: "All"),
+    ]
+}
+
 enum ReadingFrequency: String, Codable, CaseIterable {
     case daily = "Daily"
     case everyOtherDay = "Every 2 Days"

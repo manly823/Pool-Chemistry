@@ -1,5 +1,12 @@
 App Name: Pool Chemistry
 Subtitle: Water Quality Lab & Tracker
+Version: 1.0.1
+
+What's New in v1.0.1:
+- Maintenance Log: track filter cleans, vacuuming, brushing, and other pool tasks
+- Seasonal Tips: rotating expert advice based on the current time of year
+- Maintenance stats on Dashboard: total tasks, filter age, and hours spent
+- Quick-add maintenance from Dashboard
 
 Description:
 Pool Chemistry is your personal water quality laboratory, designed to help pool owners maintain crystal clear, safe, and perfectly balanced water with scientific precision and ease.

@@ -23,6 +23,9 @@ final class PoolManager: ObservableObject {
     @Published var notificationsEnabled: Bool {
         didSet { UserDefaults.standard.set(notificationsEnabled, forKey: "pc_notif") }
     }
+    @Published var maintenanceLog: [MaintenanceEntry] {
+        didSet { Storage.shared.save(maintenanceLog, forKey: "pc_maintenance") }
+    }
 
     init() {
         onboardingDone = UserDefaults.standard.bool(forKey: "pc_onboarding")
@@ -31,6 +34,29 @@ final class PoolManager: ObservableObject {
         chemicals = Storage.shared.load(forKey: "pc_chemicals", default: Self.sampleChemicals)
         frequency = Storage.shared.load(forKey: "pc_frequency", default: .everyOtherDay)
         notificationsEnabled = UserDefaults.standard.bool(forKey: "pc_notif")
+        maintenanceLog = Storage.shared.load(forKey: "pc_maintenance", default: [])
+    }
+
+    // MARK: - Maintenance Log
+
+    func addMaintenance(_ entry: MaintenanceEntry) { maintenanceLog.insert(entry, at: 0) }
+    func deleteMaintenance(_ entry: MaintenanceEntry) { maintenanceLog.removeAll { $0.id == entry.id } }
+
+    var sortedMaintenance: [MaintenanceEntry] { maintenanceLog.sorted { $0.date > $1.date } }
+    var recentMaintenance: [MaintenanceEntry] { Array(sortedMaintenance.prefix(3)) }
+
+    var lastFilterClean: Date? {
+        maintenanceLog.filter { $0.type == .filterClean || $0.type == .filterReplace }
+            .sorted { $0.date > $1.date }.first?.date
+    }
+
+    var daysSinceFilterClean: Int? {
+        guard let last = lastFilterClean else { return nil }
+        return Calendar.current.dateComponents([.day], from: last, to: Date()).day
+    }
+
+    var totalMaintenanceHours: Double {
+        Double(maintenanceLog.reduce(0) { $0 + $1.durationMinutes }) / 60.0
     }
 
     // MARK: - Readings
@@ -225,6 +251,7 @@ final class PoolManager: ObservableObject {
         readings = Self.sampleReadings
         chemicals = Self.sampleChemicals
         pool = PoolProfile()
+        maintenanceLog = []
     }
 
     // MARK: - Chart Data

@@ -3,14 +3,17 @@ import SwiftUI
 struct DashboardView: View {
     @EnvironmentObject var manager: PoolManager
     @State private var showAddReading = false
+    @State private var showAddMaintenance = false
     @State private var waveOffset: Double = 0
 
     var body: some View {
         ScrollView(showsIndicators: false) {
             VStack(spacing: 20) {
                 scoreSection
+                seasonalTipCard
                 gaugesSection
                 alertsSection
+                maintenanceSection
                 recentSection
                 poolInfoCard
             }
@@ -19,6 +22,7 @@ struct DashboardView: View {
         }
         .overlay(alignment: .bottomTrailing) { addButton }
         .sheet(isPresented: $showAddReading) { AddReadingSheet() }
+        .sheet(isPresented: $showAddMaintenance) { AddMaintenanceSheet() }
     }
 
     // MARK: - Score
@@ -41,6 +45,91 @@ struct DashboardView: View {
         if s >= 75 { return "Good — minor adjustments may be needed" }
         if s >= 50 { return "Fair — some parameters need attention" }
         return "Poor — immediate action recommended"
+    }
+
+    // MARK: - Seasonal Tip
+
+    private var seasonalTipCard: some View {
+        let tip = SeasonalTip.current
+        return HStack(spacing: 12) {
+            Image(systemName: tip.icon)
+                .font(.system(size: 18)).foregroundColor(Theme.aqua)
+                .frame(width: 38, height: 38)
+                .background(Theme.aqua.opacity(0.12))
+                .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
+            VStack(alignment: .leading, spacing: 4) {
+                HStack(spacing: 6) {
+                    Text("SEASONAL TIP").font(.system(size: 9, weight: .heavy, design: .rounded))
+                        .foregroundColor(Theme.aqua).tracking(1)
+                    Text("·").foregroundColor(Theme.sub)
+                    Text(tip.season).font(.system(size: 9, weight: .bold, design: .rounded)).foregroundColor(Theme.sub)
+                }
+                Text(tip.text)
+                    .font(.system(size: 13, weight: .medium, design: .rounded))
+                    .foregroundColor(Theme.text)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+        }
+        .padding(14).glassCard()
+    }
+
+    // MARK: - Maintenance
+
+    private var maintenanceSection: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            HStack {
+                Text("MAINTENANCE").font(.system(size: 11, weight: .bold, design: .rounded))
+                    .foregroundColor(Theme.sub).tracking(1.5)
+                Spacer()
+                Button { showAddMaintenance = true } label: {
+                    Image(systemName: "plus.circle.fill").font(.system(size: 18)).foregroundColor(Theme.pool)
+                }
+            }
+            HStack(spacing: 12) {
+                VStack(spacing: 4) {
+                    Text("\(manager.maintenanceLog.count)").font(.system(size: 20, weight: .bold, design: .rounded)).foregroundColor(Theme.text)
+                    Text("Total").font(.system(size: 10, design: .rounded)).foregroundColor(Theme.sub)
+                }.frame(maxWidth: .infinity).padding(.vertical, 12).glassCard(padding: 0)
+
+                VStack(spacing: 4) {
+                    if let days = manager.daysSinceFilterClean {
+                        Text("\(days)d").font(.system(size: 20, weight: .bold, design: .rounded))
+                            .foregroundColor(days > 30 ? Theme.danger : Theme.safe)
+                    } else {
+                        Text("—").font(.system(size: 20, weight: .bold, design: .rounded)).foregroundColor(Theme.sub)
+                    }
+                    Text("Filter").font(.system(size: 10, design: .rounded)).foregroundColor(Theme.sub)
+                }.frame(maxWidth: .infinity).padding(.vertical, 12).glassCard(padding: 0)
+
+                VStack(spacing: 4) {
+                    Text(String(format: "%.1fh", manager.totalMaintenanceHours))
+                        .font(.system(size: 20, weight: .bold, design: .rounded)).foregroundColor(Theme.text)
+                    Text("Hours").font(.system(size: 10, design: .rounded)).foregroundColor(Theme.sub)
+                }.frame(maxWidth: .infinity).padding(.vertical, 12).glassCard(padding: 0)
+            }
+            if !manager.recentMaintenance.isEmpty {
+                ForEach(manager.recentMaintenance) { entry in
+                    HStack(spacing: 12) {
+                        Image(systemName: entry.type.icon)
+                            .font(.system(size: 14)).foregroundColor(Theme.aqua)
+                            .frame(width: 32, height: 32)
+                            .background(Theme.aqua.opacity(0.1))
+                            .clipShape(RoundedRectangle(cornerRadius: 8))
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text(entry.type.rawValue).font(.system(size: 13, weight: .semibold, design: .rounded)).foregroundColor(Theme.text)
+                            Text(entry.date.formatted(.dateTime.month(.abbreviated).day()))
+                                .font(.system(size: 10, design: .rounded)).foregroundColor(Theme.sub)
+                        }
+                        Spacer()
+                        if entry.durationMinutes > 0 {
+                            Text("\(entry.durationMinutes)m").font(.system(size: 11, weight: .medium, design: .rounded))
+                                .foregroundColor(Theme.sub)
+                        }
+                    }
+                    .padding(10).glassCard(padding: 0)
+                }
+            }
+        }
     }
 
     // MARK: - Gauges
@@ -307,5 +396,52 @@ struct AddReadingSheet: View {
         )
         manager.addReading(reading)
         dismiss()
+    }
+}
+
+// MARK: - Add Maintenance Sheet
+
+struct AddMaintenanceSheet: View {
+    @EnvironmentObject var manager: PoolManager
+    @Environment(\.dismiss) private var dismiss
+    @State private var type: MaintenanceType = .filterClean
+    @State private var duration = ""
+    @State private var notes = ""
+    @State private var date = Date()
+
+    var body: some View {
+        NavigationStack {
+            Form {
+                Section("Type") {
+                    Picker("Task", selection: $type) {
+                        ForEach(MaintenanceType.allCases) { t in
+                            Label(t.rawValue, systemImage: t.icon).tag(t)
+                        }
+                    }
+                }
+                Section("Details") {
+                    DatePicker("Date", selection: $date, displayedComponents: .date)
+                    TextField("Duration (minutes)", text: $duration)
+                        .keyboardType(.numberPad)
+                    TextField("Notes", text: $notes, axis: .vertical)
+                        .lineLimit(2...4)
+                }
+            }
+            .navigationTitle("Log Maintenance")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .cancellationAction) { Button("Cancel") { dismiss() } }
+                ToolbarItem(placement: .confirmationAction) {
+                    Button("Save") {
+                        let entry = MaintenanceEntry(
+                            date: date, type: type,
+                            notes: notes, durationMinutes: Int(duration) ?? 0
+                        )
+                        manager.addMaintenance(entry)
+                        dismiss()
+                    }.bold()
+                }
+            }
+        }
     }
 }
