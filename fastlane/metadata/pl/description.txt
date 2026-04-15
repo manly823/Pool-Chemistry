@@ -1,0 +1,15 @@
+Pool Chemistry to Twoje osobiste laboratorium jakości wody, zaprojektowane, aby pomóc właścicielom basenów utrzymać krystalicznie czystą, bezpieczną i idealnie zbilansowaną wodę z naukową precyzją i łatwością.
+
+Śledź wszystkie niezbędne parametry wody, w tym pH, wolny chlor, chlor całkowity, alkaliczność całkowitą, kwas cyjanurowy (CYA/stabilizator), twardość wapniową i temperaturę wody. Każdy parametr jest wyświetlany na pięknie zaprojektowanym wskaźniku, który natychmiast pokazuje, czy poziom jest w optymalnym zakresie, zbliża się do progu ostrzegawczego, czy wymaga natychmiastowej interwencji za pomocą intuicyjnych wskaźników kolorowych.
+
+Wbudowany kalkulator dozowania eliminuje domysły związane z konserwacją basenu. Wystarczy wybrać parametr, który chcesz dostosować, wprowadzić aktualny odczyt i żądaną wartość docelową, a Pool Chemistry obliczy dokładną ilość środka chemicznego potrzebną do określonej objętości basenu. Kalkulator obsługuje wiele opcji chemicznych — na przykład, obniżając pH, można wybrać między kwasem solnym a suchym kwasem — i zawiera jasne instrukcje dotyczące bezpiecznego stosowania. Wszystkie obliczenia oparte są na standardowych formułach branżowych, stosowanych przez profesjonalnych techników basenowych.
+
+Monitoruj jakość wody w czasie dzięki szczegółowym wykresom trendów, które ujawniają wzorce w składzie chemicznym basenu. Wykrywaj sezonowe przesunięcia, śledź wpływ intensywnego użytkowania lub zjawisk pogodowych i podejmuj decyzje dotyczące rutynowej konserwacji w oparciu o dane. Wskaźnik Jakości Wody zapewnia natychmiastową, zbiorczą ocenę stanu Twojego basenu w skali od 0 do 100.
+
+Prowadź kompletny inwentarz chemikaliów z informacjami o pozostałych ilościach, datach zakupu i alertach o niskim stanie magazynowym, aby nigdy nie zabrakło Ci niezbędnych materiałów w środku sezonu. Sortuj chemikalia według kategorii — środki dezynfekujące, regulatory pH, regulatory alkaliczności, stabilizatory, preparaty wapniowe, szoki antyseptyczne, algicydy i środki klarujące.
+
+Ustaw preferowany harmonogram testów i otrzymuj powiadomienia push. Niezależnie od tego, czy testujesz codziennie, co drugi dzień, dwa razy w tygodniu, czy co tydzień, Pool Chemistry pomaga Ci być na bieżąco. Systematyczne monitorowanie to podstawa bezproblemowego użytkowania basenu.
+
+Aplikacja jest fabrycznie wyposażona w dwa tygodnie odczytów próbek i pełny inwentarz chemikaliów, dzięki czemu możesz natychmiast sprawdzić każdą funkcję. Skonfiguruj profil swojego basenu, podając objętość (w litrach lub galonach), typ basenu (wpuszczany w ziemię, naziemny lub jacuzzi) oraz materiał powierzchni, aby uzyskać najdokładniejsze obliczenia dozowania.
+
+Wszystkie dane są przechowywane lokalnie na Twoim urządzeniu, co zapewnia pełną prywatność i dostęp offline — bez konieczności zakładania konta, synchronizacji w chmurze i gromadzenia danych. Pool Chemistry to aplikacja stworzona z myślą o właścicielach basenów, którzy oczekują profesjonalnego zarządzania wodą w eleganckim i łatwym w obsłudze pakiecie.

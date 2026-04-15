@@ -1,0 +1,1 @@
+basseng,kjemi,vann,kvalitet,pH-verdi,dosering,kalkulator,sporer.

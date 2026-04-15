@@ -1,0 +1,15 @@
+Ứng dụng Pool Chemistry là phòng thí nghiệm chất lượng nước cá nhân của bạn, được thiết kế để giúp chủ sở hữu hồ bơi duy trì nguồn nước trong vắt, an toàn và cân bằng hoàn hảo với độ chính xác khoa học và sự dễ dàng.
+
+Theo dõi mọi thông số nước thiết yếu bao gồm pH, clo tự do, clo tổng, độ kiềm tổng, axit cyanuric (CYA/chất ổn định), độ cứng canxi và nhiệt độ nước. Mỗi thông số được hiển thị trên một đồng hồ đo được thiết kế đẹp mắt, cho thấy ngay lập tức liệu mức độ của bạn có nằm trong phạm vi lý tưởng, đang tiến gần đến ngưỡng cảnh báo hay cần được chú ý ngay lập tức với các chỉ báo mã màu trực quan.
+
+Máy tính liều lượng tích hợp giúp loại bỏ phỏng đoán trong việc bảo trì hồ bơi. Chỉ cần chọn thông số bạn muốn điều chỉnh, nhập chỉ số hiện tại và mục tiêu mong muốn, và Pool Chemistry sẽ tính toán chính xác lượng hóa chất cần thiết cho thể tích hồ bơi cụ thể của bạn. Máy tính hỗ trợ nhiều tùy chọn hóa chất — ví dụ, khi giảm pH, bạn có thể chọn giữa axit muriatic hoặc axit khô — và cung cấp hướng dẫn rõ ràng để sử dụng an toàn. Tất cả các tính toán đều dựa trên các công thức tiêu chuẩn ngành được sử dụng bởi các kỹ thuật viên hồ bơi chuyên nghiệp.
+
+Theo dõi chất lượng nước của bạn theo thời gian với các biểu đồ xu hướng chi tiết cho thấy các mô hình trong hóa chất hồ bơi của bạn. Phát hiện sự thay đổi theo mùa, theo dõi tác động của việc sử dụng nhiều hoặc các sự kiện thời tiết, và đưa ra quyết định dựa trên dữ liệu về quy trình bảo trì của bạn. Điểm chất lượng nước cung cấp đánh giá tổng quan nhanh chóng về sức khỏe hồ bơi của bạn trên thang điểm từ 0 đến 100.
+
+Duy trì kho hóa chất đầy đủ với số lượng còn lại, ngày mua và cảnh báo sắp hết hàng để bạn không bao giờ hết các vật tư thiết yếu giữa mùa. Sắp xếp hóa chất theo danh mục — chất khử trùng, chất điều chỉnh độ pH, chất cân bằng độ kiềm, chất ổn định, sản phẩm canxi, xử lý sốc, thuốc diệt tảo và chất làm trong nước.
+
+Thiết lập lịch kiểm tra ưa thích của bạn và nhận lời nhắc thông báo đẩy kịp thời. Cho dù bạn kiểm tra hàng ngày, cách ngày, hai lần một tuần hoặc hàng tuần, Pool Chemistry luôn giúp bạn theo dõi. Giám sát thường xuyên là nền tảng của việc sở hữu hồ bơi không gặp sự cố.
+
+Ứng dụng được tải sẵn hai tuần dữ liệu mẫu và kho hóa chất đầy đủ để bạn có thể khám phá mọi tính năng ngay lập tức. Cấu hình hồ sơ hồ bơi của bạn với thể tích (lít hoặc gallon), loại hồ bơi (âm đất, nổi trên mặt đất hoặc bồn tắm nước nóng) và vật liệu bề mặt để tính toán liều lượng chính xác nhất.
+
+Tất cả dữ liệu được lưu trữ cục bộ trên thiết bị của bạn để đảm bảo quyền riêng tư tuyệt đối và truy cập ngoại tuyến — không cần tài khoản, không đồng bộ hóa đám mây, không thu thập dữ liệu. Pool Chemistry được thiết kế dành cho những chủ sở hữu hồ bơi muốn có phần mềm quản lý nước chuyên nghiệp trong một giao diện đẹp mắt và dễ sử dụng.

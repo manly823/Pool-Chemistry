@@ -1,0 +1,15 @@
+Pool Chemistry je vaš osobni laboratorij za kvalitetu vode, osmišljen kako bi pomogao vlasnicima bazena da održavaju kristalno čistu, sigurnu i savršeno uravnoteženu vodu sa znanstvenom preciznošću i lakoćom.
+
+Pratite svaki bitan parametar vode, uključujući pH, slobodni klor, ukupni klor, ukupnu alkalnost, cijanurnu kiselinu (CYA/stabilizator), tvrdoću kalcija i temperaturu vode. Svaki parametar prikazuje se na prekrasno dizajniranom mjeraču koji odmah pokazuje jesu li vaše razine u idealnom rasponu, približavaju li se pragovima upozorenja ili zahtijevaju hitnu pažnju pomoću intuitivnih indikatora u boji.
+
+Ugrađeni kalkulator doziranja uklanja nagađanja iz održavanja bazena. Jednostavno odaberite parametar koji želite prilagoditi, unesite trenutno očitanje i željeni cilj, a Pool Chemistry izračunava točnu količinu kemikalije potrebne za vaš specifični volumen bazena. Kalkulator podržava više kemijskih opcija - na primjer, prilikom snižavanja pH možete birati između solne kiseline ili suhe kiseline - i pruža jasne upute za sigurnu primjenu. Svi izračuni temelje se na industrijskim standardnim formulama koje koriste profesionalni tehničari za bazene.
+
+Pratite kvalitetu vode tijekom vremena pomoću detaljnih grafikona trendova koji otkrivaju obrasce u kemiji vašeg bazena. Uočite sezonska odstupanja, pratite utjecaj velike upotrebe ili vremenskih događaja i donosite odluke o održavanju temeljene na podacima. Ocjena kvalitete vode pruža preglednu agregiranu procjenu zdravlja vašeg bazena na ljestvici od 0 do 100.
+
+Vodite potpuni popis kemikalija s preostalim količinama, datumima kupnje i upozorenjima o niskim zalihama kako vam nikada ne bi ponestalo osnovnih potrepština usred sezone. Organizirajte kemikalije po kategorijama - sredstva za dezinfekciju, sredstva za podešavanje pH vrijednosti, sredstva za uravnoteženje alkalnosti, stabilizatori, kalcijevi proizvodi, šok tretmani, algicidi i sredstva za bistrenje.
+
+Postavite željeni raspored testiranja i primajte pravovremene podsjetnike s push obavijestima. Bez obzira testirate li svakodnevno, svaki drugi dan, dva puta tjedno ili tjedno, Pool Chemistry vas drži na pravom putu. Dosljedno praćenje temelj je bezbrižnog vlasništva bazena.
+
+Aplikacija dolazi s unaprijed učitanim dva tjedna očitanja uzoraka i potpunim popisom kemikalija kako biste odmah mogli istražiti svaku značajku. Konfigurirajte profil svog bazena s volumenom (litre ili galoni), vrstom bazena (ukopani, nadzemni ili hidromasažna kada) i površinskim materijalom za najtočnije izračune doziranja.
+
+Svi podaci pohranjuju se lokalno na vašem uređaju za potpunu privatnost i pristup izvan mreže - nije potreban račun, nema sinkronizacije s oblakom, nema prikupljanja podataka. Pool Chemistry je napravljen za vlasnike bazena koji žele profesionalno upravljanje vodom u prekrasnom, jednostavnom paketu.

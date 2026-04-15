@@ -1,0 +1,15 @@
+Pool Chemistry on henkilökohtainen vedenlaadun laboratoriosi, joka on suunniteltu auttamaan uima-altaiden omistajia ylläpitämään kristallinkirkasta, turvallista ja täydellisesti tasapainoista vettä tieteellisellä tarkkuudella ja helposti.
+
+Seuraa kaikkia tärkeitä veden parametreja, kuten pH:ta, vapaata klooria, kokonaisklooria, kokonaisalkaliteettia, syanuurihappoa (CYA/stabilisaattori), kalsiumin kovuutta ja veden lämpötilaa. Jokainen parametri näkyy kauniisti suunnitellulla mittarilla, joka näyttää välittömästi, ovatko tasosi ihanteellisella alueella, lähestyvätkö varoituskynnysarvoja vai vaativatko ne välitöntä huomiota intuitiivisten värikoodattujen indikaattoreiden avulla.
+
+Sisäänrakennettu annoslaskin tekee altaan huollosta helppoa. Valitse vain säädettävä parametri, anna nykyinen lukema ja haluttu tavoitearvo, ja Pool Chemistry laskee tarkan kemikaalimäärän, jota tarvitaan tiettyyn altaan tilavuuteen. Laskin tukee useita kemikaalivaihtoehtoja – esimerkiksi pH-arvoa alennettaessa voit valita muriatiinihapon tai kuivahapon välillä – ja antaa selkeät ohjeet turvalliseen käyttöön. Kaikki laskelmat perustuvat ammattitaitoisten allasteknikkojen käyttämiin alan standardikaavoihin.
+
+Seuraa veden laatua ajan kuluessa yksityiskohtaisten trendikaavioiden avulla, jotka paljastavat altaan kemiallisten ominaisuuksien kaavat. Paikanna kausivaihtelut, seuraa raskaan käytön tai sääilmiöiden vaikutusta ja tee dataan perustuvia päätöksiä huoltorutiineistasi. Vedenlaatupisteytys tarjoaa yhdellä silmäyksellä koostetun arvion altaasi kunnosta asteikolla 0–100.
+
+Pidä täydellistä kemikaaliluetteloa jäljellä olevilla määrillä, ostopäivämäärillä ja vähävaraisuushälytyksillä, jotta välttämättömät tarvikkeet eivät koskaan lopu kesken kauden. Järjestä kemikaalit luokittain – desinfiointiaineet, pH-säätimet, emäksisyyden tasapainottajat, stabilointiaineet, kalsiumtuotteet, shokkikäsittelyt, levämyrkyt ja kirkasteet.
+
+Aseta haluamasi testausaikataulu ja vastaanota ajankohtaisia ​​push-ilmoitusmuistutuksia. Pool Chemistry pitää sinut aikataulussa riippumatta siitä, testaatko päivittäin, joka toinen päivä, kaksi kertaa viikossa vai viikoittain. Johdonmukainen seuranta on ongelmattoman altaan omistamisen perusta.
+
+Sovellus on esiasennettu kahden viikon näytelukemilla ja täydellisellä kemikaaliluettelolla, jotta voit tutustua kaikkiin ominaisuuksiin välittömästi. Määritä altaasi profiili tilavuudella (litraa tai gallonaa), altaan tyypillä (maanalainen, maanpäällinen tai poreallas) ja pintamateriaalilla tarkimpien annoslaskelmien saamiseksi.
+
+Kaikki tiedot tallennetaan paikallisesti laitteellesi täydellisen yksityisyyden ja offline-käytön takaamiseksi – ei tiliä vaadita, ei pilvisynkronointia, ei tiedonkeruuta. Pool Chemistry on suunniteltu uima-altaiden omistajille, jotka haluavat ammattitason vedenhallintaa tyylikkäässä ja helppokäyttöisessä paketissa.

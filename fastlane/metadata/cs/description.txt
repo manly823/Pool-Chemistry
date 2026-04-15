@@ -1,0 +1,15 @@
+Pool Chemistry je vaše osobní laboratoř kvality vody, navržená tak, aby pomohla majitelům bazénů udržovat křišťálově čistou, bezpečnou a dokonale vyváženou vodu s vědeckou přesností a snadností.
+
+Sledujte všechny důležité parametry vody, včetně pH, volného chloru, celkového chloru, celkové alkality, kyseliny kyanurové (CYA/stabilizátor), tvrdosti vápníku a teploty vody. Každý parametr se zobrazuje na krásně navrženém ukazateli, který pomocí intuitivních barevně kódovaných indikátorů okamžitě ukazuje, zda jsou vaše hladiny v ideálním rozmezí, blíží se varovným prahům nebo vyžadují okamžitou pozornost.
+
+Vestavěná kalkulačka dávkování eliminuje dohady při údržbě bazénu. Jednoduše vyberte parametr, který chcete upravit, zadejte aktuální hodnotu a požadovaný cíl a Pool Chemistry vypočítá přesné množství chemikálie potřebné pro váš specifický objem bazénu. Kalkulačka podporuje více možností chemie – například při snižování pH si můžete vybrat mezi kyselinou solnou nebo suchou kyselinou – a poskytuje jasné pokyny pro bezpečnou aplikaci. Všechny výpočty jsou založeny na standardních vzorcích používaných profesionálními bazénovými techniky.
+
+Sledujte kvalitu vody v průběhu času pomocí podrobných trendových grafů, které odhalují vzorce v chemii vašeho bazénu. Sledujte sezónní výkyvy, sledujte dopad intenzivního používání nebo povětrnostních událostí a na základě dat čiňte rozhodnutí o údržbě. Skóre kvality vody poskytuje přehledné agregované posouzení stavu vašeho bazénu na stupnici od 0 do 100.
+
+Veďte si kompletní inventář chemikálií se zbývajícím množstvím, daty nákupu a upozorněními na nízký stav zásob, abyste v polovině sezóny nikdy nevyčerpali základní zásoby. Uspořádejte chemikálie podle kategorií – dezinfekční prostředky, regulátory pH, vyrovnávače alkality, stabilizátory, vápenaté produkty, šokové ošetření, algicidy a čističe.
+
+Nastavte si preferovaný plán testování a dostávejte včasná push upozornění. Ať už testujete denně, obden, dvakrát týdně nebo týdně, Pool Chemistry vás udrží v obraze. Důsledné monitorování je základem bezproblémového vlastnictví bazénu.
+
+Aplikace je dodávána s předinstalovanými dvěma týdny měření vzorků a kompletním inventářem chemikálií, abyste si mohli okamžitě prohlédnout každou funkci. Nakonfigurujte si profil bazénu s objemem (litry nebo galony), typem bazénu (zapuštěný, nadzemní nebo vířivka) a povrchovým materiálem pro co nejpřesnější výpočet dávkování.
+
+Všechna data jsou uložena lokálně ve vašem zařízení pro naprosté soukromí a offline přístup – není vyžadován žádný účet, žádná synchronizace s cloudem, žádný sběr dat. Pool Chemistry je vytvořen pro majitele bazénů, kteří chtějí profesionální správu vody v krásném a snadno použitelném balíčku.

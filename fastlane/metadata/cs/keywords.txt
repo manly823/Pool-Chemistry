@@ -1,0 +1,1 @@
+bazén,chemie,voda,kvalitní,pH,dávkování,kalkulačka,sledovač.

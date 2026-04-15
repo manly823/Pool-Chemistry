@@ -1,0 +1,1 @@
+havuz,kimya,su,kalite,pH,dozaj,hesap makinesi,takipçi.

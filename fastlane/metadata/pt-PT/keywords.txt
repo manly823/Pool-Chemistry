@@ -1,0 +1,1 @@
+piscina,química,água,qualidade,pH,dosagem,calculadora,rastreador.

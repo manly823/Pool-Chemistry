@@ -1,0 +1,15 @@
+O Pool Chemistry é o seu laboratório pessoal de qualidade da água, projetado para ajudar os proprietários de piscinas a manterem a água cristalina, segura e perfeitamente equilibrada com precisão científica e facilidade.
+
+Monitore todos os parâmetros essenciais da água, incluindo pH, cloro livre, cloro total, alcalinidade total, ácido cianúrico (CYA/estabilizador), dureza de cálcio e temperatura da água. Cada parâmetro é exibido em um medidor com design elegante que mostra instantaneamente se os seus níveis estão na faixa ideal, se aproximando dos limites de alerta ou se exigem atenção imediata, com indicadores intuitivos codificados por cores.
+
+A Calculadora de Dosagem integrada elimina as dúvidas na manutenção da piscina. Basta selecionar o parâmetro que deseja ajustar, inserir a leitura atual e o valor desejado, e o Pool Chemistry calcula a quantidade exata de produto químico necessária para o volume específico da sua piscina. A calculadora oferece suporte a várias opções de produtos químicos — por exemplo, ao diminuir o pH, você pode escolher entre ácido muriático ou ácido seco — e fornece instruções claras para uma aplicação segura. Todos os cálculos são baseados em fórmulas padrão do setor, utilizadas por técnicos de piscina profissionais.
+
+Monitore a qualidade da sua água ao longo do tempo com gráficos de tendências detalhados que revelam padrões na química da sua piscina. Identifique variações sazonais, acompanhe o impacto do uso intenso ou de eventos climáticos e tome decisões baseadas em dados sobre sua rotina de manutenção. O Índice de Qualidade da Água fornece uma avaliação geral da saúde da sua piscina em uma escala de 0 a 100.
+
+Mantenha um inventário completo de produtos químicos com quantidades restantes, datas de compra e alertas de estoque baixo para que você nunca fique sem suprimentos essenciais no meio da temporada. Organize os produtos químicos por categoria: sanitizantes, ajustadores de pH, balanceadores de alcalinidade, estabilizadores, produtos de cálcio, tratamentos de choque, algicidas e clarificantes.
+
+Defina sua programação de testes preferida e receba lembretes oportunos por meio de notificações push. Seja testando diariamente, a cada dois dias, duas vezes por semana ou semanalmente, o aplicativo Pool Chemistry mantém você no controle. O monitoramento consistente é a base para uma piscina sem problemas.
+
+O aplicativo já vem com duas semanas de leituras de amostras e um inventário completo de produtos químicos pré-carregados para que você possa explorar todos os recursos imediatamente. Configure o perfil da sua piscina com o volume (litros ou galões), o tipo de piscina (enterrada, acima do solo ou banheira de hidromassagem) e o material da superfície para obter os cálculos de dosagem mais precisos.
+
+Todos os dados são armazenados localmente no seu dispositivo para total privacidade e acesso offline — sem necessidade de conta, sem sincronização com a nuvem e sem coleta de dados. O Pool Chemistry foi desenvolvido para proprietários de piscinas que desejam um gerenciamento de água de nível profissional em um pacote bonito e fácil de usar.

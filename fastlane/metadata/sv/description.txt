@@ -1,0 +1,15 @@
+Pool Chemistry är ditt personliga vattenkvalitetslaboratorium, utformat för att hjälpa poolägare att bibehålla kristallklart, säkert och perfekt balanserat vatten med vetenskaplig precision och enkelhet.
+
+Spåra alla viktiga vattenparametrar, inklusive pH, fritt klor, totalt klor, total alkalinitet, cyanursyra (CYA/stabilisator), kalciumhårdhet och vattentemperatur. Varje parameter visas på en vackert designad mätare som direkt visar om dina nivåer ligger inom det ideala intervallet, närmar sig varningsgränser eller kräver omedelbar uppmärksamhet med intuitiva färgkodade indikatorer.
+
+Den inbyggda doseringskalkylatorn tar bort gissningsleken vid poolunderhåll. Välj bara den parameter du vill justera, ange din aktuella avläsning och önskat målvärde, så beräknar Pool Chemistry den exakta mängden kemikalie som behövs för din specifika poolvolym. Kalkylatorn stöder flera kemikaliealternativ – till exempel, när du sänker pH-värdet kan du välja mellan saltsyra eller torr syra – och ger tydliga instruktioner för säker applicering. Alla beräkningar är baserade på branschstandardformler som används av professionella pooltekniker.
+
+Övervaka din vattenkvalitet över tid med detaljerade trenddiagram som avslöjar mönster i din poolkemi. Upptäck säsongsavvikelser, spåra effekterna av kraftig användning eller väderhändelser och fatta datadrivna beslut om din underhållsrutin. Vattenkvalitetspoängen ger en snabb och sammanfattande bedömning av din pools hälsa på en skala från 0–100.
+
+Håll ett komplett kemikalieregister med återstående mängder, inköpsdatum och varningar om lågt lager så att du aldrig får slut på viktiga förnödenheter mitt i säsongen. Organisera kemikalier efter kategori – desinfektionsmedel, pH-justerare, alkalinitetsbalanserare, stabilisatorer, kalciumprodukter, chockbehandlingar, algmedel och klarningsmedel.
+
+Ställ in ditt önskade testschema och få snabba push-aviseringar. Oavsett om du testar dagligen, varannan dag, två gånger i veckan eller varje vecka, håller Pool Chemistry dig på rätt spår. Konsekvent övervakning är grunden för ett problemfritt poolägande.
+
+Appen levereras förinstallerad med två veckors provavläsningar och ett komplett kemikalieregister så att du kan utforska varje funktion direkt. Konfigurera din poolprofil med volym (liter eller gallon), pooltyp (nedgrävd, ovan mark eller bubbelpool) och ytmaterial för de mest exakta doseringsberäkningarna.
+
+All data lagras lokalt på din enhet för fullständig integritet och offlineåtkomst – inget konto krävs, ingen molnsynkronisering, ingen datainsamling. Pool Chemistry är byggt för poolägare som vill ha professionell vattenhantering i ett snyggt och lättanvänt paket.

@@ -1,0 +1,1 @@
+medence,kémia,víz,minőség,pH-érték,adagolás,számológép,nyomozó.

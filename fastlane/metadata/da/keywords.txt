@@ -1,0 +1,1 @@
+pool,kemi,vand,kvalitet,pH-værdi,dosering,kalkulator,sporingsenhed.

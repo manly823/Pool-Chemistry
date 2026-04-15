@@ -1,0 +1,15 @@
+Pool Chemistry adalah laboratorium kualitas air pribadi Anda, dirancang untuk membantu pemilik kolam renang menjaga air yang jernih, aman, dan seimbang sempurna dengan presisi dan kemudahan ilmiah.
+
+Pantau setiap parameter air penting termasuk pH, klorin bebas, klorin total, alkalinitas total, asam sianurat (CYA/stabilizer), kesadahan kalsium, dan suhu air. Setiap parameter ditampilkan pada pengukur yang dirancang dengan indah yang langsung menunjukkan apakah kadar Anda berada dalam kisaran ideal, mendekati ambang batas peringatan, atau memerlukan perhatian segera dengan indikator berkode warna yang intuitif.
+
+Kalkulator Dosis bawaan menghilangkan tebak-tebakan dalam perawatan kolam renang. Cukup pilih parameter yang ingin Anda sesuaikan, masukkan pembacaan Anda saat ini dan target yang diinginkan, dan Pool Chemistry akan menghitung jumlah bahan kimia yang tepat yang dibutuhkan untuk volume kolam renang spesifik Anda. Kalkulator ini mendukung beberapa pilihan bahan kimia — misalnya, saat menurunkan pH Anda dapat memilih antara asam muriatik atau asam kering — dan memberikan instruksi yang jelas untuk aplikasi yang aman. Semua perhitungan didasarkan pada rumus standar industri yang digunakan oleh teknisi kolam renang profesional.
+
+Pantau kualitas air Anda dari waktu ke waktu dengan grafik tren terperinci yang mengungkapkan pola dalam kimia kolam renang Anda. Pantau perubahan musiman, lacak dampak penggunaan intensif atau peristiwa cuaca, dan buat keputusan berbasis data tentang rutinitas perawatan Anda. Skor Kualitas Air memberikan penilaian agregat sekilas tentang kesehatan kolam renang Anda pada skala 0-100.
+
+Simpan inventaris bahan kimia lengkap dengan jumlah yang tersisa, tanggal pembelian, dan peringatan stok rendah sehingga Anda tidak pernah kehabisan persediaan penting di tengah musim. Atur bahan kimia berdasarkan kategori — sanitasi, pengatur pH, penyeimbang alkalinitas, stabilisator, produk kalsium, perawatan kejut, algisida, dan penjernih.
+
+Tetapkan jadwal pengujian pilihan Anda dan terima pengingat notifikasi push tepat waktu. Baik Anda menguji setiap hari, setiap dua hari, dua kali seminggu, atau mingguan, Kimia Kolam Renang membantu Anda tetap pada jalur yang benar. Pemantauan yang konsisten adalah dasar dari kepemilikan kolam renang tanpa masalah.
+
+Aplikasi ini sudah dilengkapi dengan data pembacaan sampel selama dua minggu dan inventaris bahan kimia lengkap sehingga Anda dapat menjelajahi setiap fitur dengan segera. Konfigurasikan profil kolam Anda dengan volume (liter atau galon), jenis kolam (di dalam tanah, di atas tanah, atau kolam air panas), dan material permukaan untuk perhitungan dosis yang paling akurat.
+
+Semua data disimpan secara lokal di perangkat Anda untuk privasi lengkap dan akses offline — tidak perlu akun, tidak ada sinkronisasi cloud, tidak ada pengumpulan data. Pool Chemistry dirancang untuk pemilik kolam yang menginginkan manajemen air tingkat profesional dalam paket yang indah dan mudah digunakan.
